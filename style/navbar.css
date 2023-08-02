@@ -1,0 +1,210 @@
+/* header section style */
+/* Add your regular styles for the navbar */
+.title{
+  color: black;
+}
+/* Add styles for sticky navbar */
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  animation: fadeInDown 0.3s ease;
+  background-color: #7a7878; /* Change background color when sticky */
+  color: black;
+  width: 93%;
+
+}
+.navbar li.sticky{
+  color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  height: 600px;
+  background-image: url("../images/nextjs_header.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: relative;
+  margin-right: 20px;
+}
+
+.navbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+@keyframes fadeInDown {
+  from {
+      top: -50px;
+  }
+  to {
+      top: 0;
+  }
+}
+
+/* Rest of your existing styles */
+
+
+
+/* Add some space below the header so that content does not overlap with the sticky menu */
+main {
+  padding-top: 40px;
+}
+
+
+
+
+
+
+.menu-sectionber{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin-top: 75px;
+ 
+
+}
+.menu-ber {
+   background-color: #f7186d;
+    color: #fff;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+  }
+.menubar {
+    background-color: #4ab5f3;
+    color: #fff;
+    padding: 20px;
+ 
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-ber ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+ 
+  .menu-ber a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  .menu-ber a:hover {
+    background-color: #555;
+  }
+  .dropdown {
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 150px;
+    z-index: 1;
+  }
+  .dropdown-content a {
+    display: block;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    background-color: #666;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  ul{
+    gap: 25px;
+  }
+  .brand{
+    font-size: 20px;
+  }
+
+  /* 2nd navigatioinber  */
+
+  .menu-sectionber{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin-top: 75px;
+ 
+
+}
+.menu-bar {
+    background-color: #75034f;
+    color: #fff;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+  }
+.menubar {
+    background-color: #4ab5f3;
+    color: #fff;
+    padding: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .menu-bar li {
+    margin-right: 20px;
+  }
+  .menu-bar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  .menu-bar a:hover {
+    background-color: #555;
+  }
+  .dropdown {
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 150px;
+    z-index: 1;
+  }
+  .dropdown-content a {
+    display: block;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    background-color: #666;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

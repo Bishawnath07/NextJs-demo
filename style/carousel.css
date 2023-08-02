@@ -1,0 +1,58 @@
+/* Styles for the carousel container */
+.carousel-section{
+    margin-top: 50px;
+}
+/* Styles for the carousel container */
+.carousel-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Styles for the carousel */
+  .carousel {
+    width: 70%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Styles for the slide container */
+  .slide-container {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Styles for each slide */
+  .slide-container img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Set the slide container to show the current slide */
+  .carousel[data-slide="1"] .slide-container { transform: translateX(0); }
+  .carousel[data-slide="2"] .slide-container { transform: translateX(-100%); }
+  .carousel[data-slide="3"] .slide-container { transform: translateX(-200%); }
+  
+  /* Styles for the navigation buttons */
+  .prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  

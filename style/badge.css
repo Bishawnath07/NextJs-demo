@@ -1,0 +1,35 @@
+.slider-badge-section{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin-top: 75px;
+}
+.badge {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #f5d2d2;
+  }
+
+  /* Replace the following background color with your brand color */
+  .badge-primary {
+    background-color: #75074b;
+  }
+
+  /* Additional style for the badge */
+  .badge-default {
+    background-color: #a09ca0;
+  }
+  .badge-info {
+    background-color: #70cdf1;
+  }
+  .badge-success {
+    background-color: #4caf50;
+  }
+  .badge-warning {
+    background-color: #ff9800;
+  }
+  .badge-danger {
+    background-color: #f44336;
+  }

@@ -1,0 +1,19 @@
+.image-sections{
+    margin-top: 80px;
+}
+.image-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rounded-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+.circle-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}

@@ -1,0 +1,37 @@
+
+  
+  .content h1 {
+    margin-top: 0;
+  }
+  
+  /* Styles for the footer */
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 12px;
+  }
+  
+  /* .footer li:first-child {
+    margin-left: 0;
+  }
+  
+  .footer li:last-child {
+    margin-right: 0;
+  } */
+  
+  .footer p {
+    margin: 10px 0;
+  }
+  

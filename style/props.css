@@ -1,0 +1,57 @@
+.modal-and-popup{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styles for the tooltip container */
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+}
+
+/* Styles for the tooltip */
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+/* Show the tooltip on hover */
+.tooltip-btn:hover + .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Styles for the tooltip button */
+.tooltip-btn {
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+/* Styles for the tooltip button hover effect */
+.tooltip-btn:hover + .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.time-and-tooltip{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
